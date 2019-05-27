@@ -12,6 +12,11 @@ const srcPath = {
     js: './app/js/app.bundle.js'
 }
 
+function bootstrapBuild(){
+    return src('./node_modules/bootstrap/dist/css/bootstrap.min.css')
+    .pipe(dest('./public/assets/css'))
+}
+
 function sassBuild(){
     return src(srcPath.sass)
         .pipe(sourcemaps.init())
@@ -34,6 +39,7 @@ function cacheBusting(){
 }
 
 exports.default = parallel(
+    bootstrapBuild,
     sassBuild,
     jsBuild,
     cacheBusting

@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _core_Foo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core/Foo */ \"./app/js/core/Foo.js\");\n/* harmony import */ var _core_Bar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./core/Bar */ \"./app/js/core/Bar.js\");\n\n\nconst foo = Object(_core_Foo__WEBPACK_IMPORTED_MODULE_0__[\"newFoo\"])().sayFoo();\nconst bar = Object(_core_Bar__WEBPACK_IMPORTED_MODULE_1__[\"newBar\"])().sayBar();\nalert(foo);\nconsole.log(bar);\n\n//# sourceURL=webpack:///./app/js/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _core_Foo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core/Foo */ \"./app/js/core/Foo.js\");\n/* harmony import */ var _core_Bar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./core/Bar */ \"./app/js/core/Bar.js\");\n\n\nconst foo = Object(_core_Foo__WEBPACK_IMPORTED_MODULE_0__[\"newFoo\"])().sayFoo();\nconst bar = Object(_core_Bar__WEBPACK_IMPORTED_MODULE_1__[\"newBar\"])().sayBar();\n\n//# sourceURL=webpack:///./app/js/app.js?");
 
 /***/ }),
 

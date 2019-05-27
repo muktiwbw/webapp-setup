@@ -3,6 +3,3 @@ import {newBar} from './core/Bar'
 
 const foo = newFoo().sayFoo()
 const bar = newBar().sayBar()
-
-alert(foo)
-console.log(bar)

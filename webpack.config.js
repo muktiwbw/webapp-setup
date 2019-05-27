@@ -1,4 +1,5 @@
 const path = require('path')
+const webpack = require('webpack')
 
 module.exports = {
     entry: path.join(__dirname, 'app/js/app.js'),
@@ -17,6 +18,11 @@ module.exports = {
             }
         ]
     },
+    plugins: [
+        new webpack.ProvidePlugin({
+            $: 'jquery'
+        })
+    ],
     mode:"development",
     devServer: {
             contentBase: './public',

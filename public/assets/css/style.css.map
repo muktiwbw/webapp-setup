@@ -1,1 +1,1 @@
-{"version":3,"sources":["style.sass"],"names":[],"mappings":"AAEA,KACI,qBAHQ","file":"style.css","sourcesContent":["$color: blue;\n\nbody {\n    background-color: $color; }\n"]}
+{"version":3,"sources":["style.sass"],"names":[],"mappings":"AAGA,KACI,sBAAuB","file":"style.css","sourcesContent":["$cBlue: blue;\n$cRed: red;\n\nbody {\n    background-color: green; }\n"]}
